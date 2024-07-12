@@ -1,0 +1,29 @@
+.pokemon {
+  border-radius: 20px;
+  background: #0000001a;
+  padding: 37px 17px;
+  display: flex;
+  width: 367px;
+  justify-content: space-between;
+}
+
+.pokemonTextContainer {
+  width: 115px;
+}
+
+.pokemonText {
+  font-size: 10px;
+  line-height: 16.25px;
+}
+
+.pokemonText::first-letter {
+  text-transform: uppercase;
+}
+
+.pokemonTextSpace {
+  margin-bottom: 2px;
+}
+
+.typeSpace {
+  margin-right: 6px;
+}
